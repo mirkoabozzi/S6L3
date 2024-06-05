@@ -1,0 +1,85 @@
+@import "./partials/reset";
+@import "./partials/colors";
+@import "./partials/font";
+@import "./partials/spacings";
+@import "./partials/button";
+@import "./partials/mixins";
+@import "./partials/animations";
+
+
+body{
+    font-family: $main-font;
+    color: $text-color;
+    background-color: $bg-color;
+    position:relative;
+    nav{
+        padding: $size-3;
+        display: flex;
+        .logo{
+            img{
+                width: 5rem;
+                @include floating();
+            }
+        }
+        ul{
+            display:flex;
+            li{
+                padding: $size-3;
+                list-style: none;
+            }
+        
+
+        }
+    }
+    header{
+        padding:1rem;
+        position: absolute;
+        animation: fadeIn 5s;
+        .hero{
+            margin-block: $size-5;
+            display: flex;
+            align-items: end;
+            h1{
+                @include title-big();
+            }
+            p{
+                font-size: $font-size-2;
+            }
+        }
+        
+        .img-container img{
+            width: 20rem;
+            @include floating(10px, 10px 10px 15px -3px rgba(216, 212, 212, 0.701), 1px solid white );
+        }
+        .grid{
+            display: flex;
+            
+            .image-grid-container{
+                
+               
+                img {
+                    width: 100%;
+                    padding-inline: $size-3;
+                    
+                
+                }
+            }
+        }
+    }
+}
+ 
+
+
+@keyframes fadeIn {
+    from {
+         opacity: 0;
+         transform: translate(0, -750px);
+         }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0px);
+       }
+}
+
+

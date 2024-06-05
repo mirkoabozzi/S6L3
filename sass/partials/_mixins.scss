@@ -1,0 +1,11 @@
+@mixin title-big(){
+    color: $text-color;
+    font-size: $font-size-5;
+}
+
+@mixin floating($radius: 20px, $shadow:18px 26px 19px 8px rgba(255, 255, 255, 0.1) , $border: 1px solid black){
+    border-radius: $radius;
+    box-shadow: $shadow;
+    border: $border;
+}
+

@@ -1,0 +1,29 @@
+.btn-1{
+    background-color:$btn-color-blu ;
+    padding: $size-3;
+    color: $text-color;
+}
+.btn-2{
+    background-color: $btn-color-orange;
+    padding: $size-3;
+    color: $text-color;
+}
+.btn-3{
+    background-color: $btn-color-green;
+    padding: $size-3;
+    color: $text-color;
+}
+
+
+
+$color-list:(
+    blu: #0e6cff,
+    orange: #ff8700,
+    green: #4caf50,
+);
+
+@each $key, $value in $color-list{
+    .btn-color-#{$key}{
+        background-color: $value;
+    }
+}
