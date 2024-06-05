@@ -166,6 +166,7 @@ body header .hero {
   margin-block: 2rem;
   display: flex;
   align-items: end;
+  padding-inline: 1rem;
 }
 body header .hero h1 {
   color: #f4f4f4;
@@ -182,6 +183,9 @@ body header .img-container img {
 }
 body header .grid {
   display: flex;
+}
+body header .grid .image-grid-container {
+  padding-inline: 1rem;
 }
 body header .grid .image-grid-container img {
   width: 100%;

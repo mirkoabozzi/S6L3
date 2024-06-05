@@ -39,6 +39,7 @@ body{
             margin-block: $size-5;
             display: flex;
             align-items: end;
+            padding-inline: $size-3;
             h1{
                 @include title-big();
             }
@@ -56,7 +57,7 @@ body{
             
             
             .image-grid-container{
-                
+                padding-inline: $size-3;
                
                 img {
                     width: 100%;
