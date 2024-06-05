@@ -105,21 +105,21 @@ body {
 }
 
 .btn-1 {
-  background-color: #0e6cff;
-  padding: 1rem;
+  padding: 1rem 2rem;
   color: #f4f4f4;
+  border-radius: 50px;
 }
 
 .btn-2 {
-  background-color: #ff8700;
-  padding: 1rem;
+  padding: 1rem 2rem;
   color: #f4f4f4;
+  border-radius: 50px;
 }
 
 .btn-3 {
-  background-color: #4caf50;
-  padding: 1rem;
+  padding: 1rem 2rem;
   color: #f4f4f4;
+  border-radius: 50px;
 }
 
 .btn-color-blu {
@@ -134,6 +134,16 @@ body {
   background-color: #4caf50;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(0, -750px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #f4f4f4;
@@ -192,15 +202,4 @@ body header .grid .image-grid-container img {
   border-radius: 10px;
   box-shadow: 10px 10px 15px -3px rgba(255, 211, 211, 0.878);
   border: 0px;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translate(0, -750px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0, 0px);
-  }
 }/*# sourceMappingURL=style.css.map */

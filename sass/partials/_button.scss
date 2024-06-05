@@ -1,17 +1,17 @@
-.btn-1{
-    background-color:$btn-color-blu ;
-    padding: $size-3;
+.btn-1{    
+    padding: $size-3 $size-5;
     color: $text-color;
+    border-radius: 50px;
 }
-.btn-2{
-    background-color: $btn-color-orange;
-    padding: $size-3;
+.btn-2{    
+    padding: $size-3 $size-5;
     color: $text-color;
+    border-radius: 50px;
 }
-.btn-3{
-    background-color: $btn-color-green;
-    padding: $size-3;
+.btn-3{    
+    padding: $size-3 $size-5;
     color: $text-color;
+    border-radius: 50px;
 }
 
 
