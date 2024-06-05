@@ -185,7 +185,9 @@ body header .grid {
 }
 body header .grid .image-grid-container img {
   width: 100%;
-  padding-inline: 1rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px -3px rgba(255, 211, 211, 0.878);
+  border: 0px;
 }
 
 @keyframes fadeIn {
