@@ -185,6 +185,9 @@ body header .hero h1 {
 body header .hero p {
   font-size: 18px;
 }
+body header .img-container {
+  margin-left: 2rem;
+}
 body header .img-container img {
   width: 20rem;
   border-radius: 10px;
